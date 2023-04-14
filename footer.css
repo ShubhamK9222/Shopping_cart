@@ -1,0 +1,157 @@
+
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 1rem;
+  /* background: rgb(0,155,255); */
+background: linear-gradient(90deg, rgba(0,155,255,1) 0%, rgba(0,249,254,1) 56%);
+
+
+}
+
+@font-face {
+  font-family:MiraclesAutumn;
+  src: url('Images/Font/miracles-autumn-font/MiraclesAutumn-Rpx1A.otf') format('opentype');
+}
+.footer h1
+{
+  font-family: MiraclesAutumn;
+    font-size:60px;
+    background: -webkit-linear-gradient(#feff00,#fd2ddd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+  font-weight: 800;
+  font-style: italic;
+}
+
+.footer > .upper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1rem;
+}
+.footer > .upper > .left {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.footer > .upper > .left > .desc {
+  width: 60%;
+}
+
+.footer > .upper > .right {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.footer > .upper > .right > .links {
+  display: flex;
+  gap: 1rem;
+  /* flex-direction: column; */
+}
+
+.footer > .upper > .right > .links > a {
+  text-decoration: none;
+  color:black;
+  font-weight: 650;
+  font-size: 1.3rem;
+}
+
+
+
+
+
+
+/*Underline*/
+
+.footer > .upper > .right > .links > a::after {
+    content: " ";
+    display: block;
+
+    width: 0%;
+    height: 1px;
+
+    background-color: #000;
+
+    transition: width 0.4s;
+}
+
+.footer > .upper > .right > .links > a:hover::after {
+    width: 100%;
+}
+/* End */
+
+.footer > .upper > .right > .extra-info {
+  display: flex;
+  gap: 0.2rem;
+  flex-direction: column;
+}
+
+.footer > .upper > .right > .extra-info > p {
+  color: black;
+}
+.footer > .upper > .left > .icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer > .upper > .left > .icons > i {
+  font-size: 2rem;
+}
+
+.footer1 {
+  position: relative;
+  height: 40px;
+  width: 100%;
+  background-color:#1E90FF;
+  
+}
+
+.icon-foot
+{
+  font-weight: 600;
+}
+p.copyright {
+  font-weight:600;
+  position: absolute;
+  width: 100%;
+  color: #fff;
+  line-height: 40px;
+  font-size: 0.7em;
+  text-align: center;
+  bottom:0;
+}
+
+
+@media all and (max-width: 700px) {
+  .footer > .upper {
+    gap: 1rem;
+    flex-direction: column-reverse;
+  }
+  .footer > .upper > .left > .desc {
+    /* height:100px; */
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .footer > .upper {
+    gap: 1rem;
+    flex-direction: column-reverse;
+  }
+  .footer > .upper > .left > .desc {
+    height:100px;
+    width: 100%;
+  }
+}
+
+
+
+

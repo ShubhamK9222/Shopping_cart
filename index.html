@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping cart</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet"  href="style.css">
+    <link rel="stylesheet"  href="footer.css">
+
+</head>
+<body>
+    <div id="loader">
+        <img src="/Images/loading-buffering.gif"/>
+    </div>
+    <div id="content">
+    <section id="header">
+        <a href="index.html"><img src="Images/Logo/Logo.png" class="logo" alt="" ></a>
+    <div>
+        <ul id="navbar">
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="/shop.html">Shop</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+            <li id="lg-bag"><a href="cart.html"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a></li>
+            <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+        </ul>
+    </div>
+    <div id="mobile">
+        <a href="cart.html"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+        <i id="lines" class="fa-solid fa-bars"></i>
+    </div>
+    </section>
+
+    <section>
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="/Images/Index/Slider/image1.jpg" style="width:100%">
+            
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="/Images/Index/Slider/image2.jpg" style="width:100%">
+            
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="/Images/Index/Slider/image3.jpg" style="width:100%">
+            
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    </section>
+    <section id="feature" class="section-p1">
+        <div class="fe-box">
+            <img src="Images/Index/Features/free shipping.jpg" alt="">
+            <h6>Free Shipping</h6>
+
+        </div>
+        <div class="fe-box">
+            <img src="Images/Index/Features/bestprice.jfif" alt="">
+            <h6>Best price</h6>
+
+        </div>
+        <div class="fe-box">
+            <img src="Images/Index/Features/247.jpg" alt="">
+            <h6>24/7 Customer Service</h6>
+
+        </div>
+        <div class="fe-box">
+            <img src="Images/Index/Features/emi.jpg" alt="">
+            <h6>No Cost EMI Available</h6>
+
+        </div>
+        <script src="script.js"></script>
+</section>
+
+    <section id="product1" class="section-p1">
+        <h2>Featured</h2>
+        <p>Laptops</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="Images/Laptop/Asus/main.jpg" alt="Asus-Laptop">
+                <div class="des">
+                    <span>Asus</span>
+                    <h5>ASUS ROG Zephyrus G15</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        
+                    </div>
+                    <h4>₹1,80,000</h4>
+                </div>
+                <a href="#"><i class="fa fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="Images/Laptop/Dell/main.jpg" alt="Dell-laptop">
+                <div class="des">
+                    <span>Dell</span>
+                    <h5>Dell Vostro 3420 Laptop</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        </div>
+                    <h4>₹60,000</h4>
+                </div>
+                <a href="#"><i class="fa fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="Images/Laptop/Hp/main.jpg" alt="Hp-Laptop">
+                <div class="des">
+                    <span>Hp</span>
+                    <h5>HP 15s</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        
+                    </div>
+                    <h4>₹55,499</h4>
+                </div>
+                <a href="#"><i class="fa fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="Images/Laptop/Msi/main.jpg" alt="msi-Laptop">
+                <div class="des">
+                    <span>Msi</span>
+                    <h5>MSI Katana 17</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        
+                    </div>
+                    <h4>₹95,999</h4>
+                </div>
+                <a href="#"><i class="fa fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            </div>
+<hr>
+<br>
+<br>
+<br>
+          <h2>Featured</h2>
+            <p>Mobile Phones</p> 
+            <div class="pro-container">
+            <div class="pro">
+                <img src="Images/Phones/Iqoo/main.jpg" alt="Iqoo-phone">
+                <div class="des">
+                    <span>Iqoo</span>
+                    <h5>iQOO 11 5G</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        
+                    </div>
+                    <h4>₹50,000</h4>
+                </div>
+                <a href="#"><i class="fa fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="Images/Phones/Iphone/main.jpg" alt="">
+                <div class="des">
+                    <span>Iphone</span>
+                    <h5>Iphone 14 pro max</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        
+                    </div>
+                    <h4>₹1,25,000</h4>
+                </div>
+                <a href="#"><i class="fa fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="Images/Phones/Oneplus/main.jpg" alt="">
+                <div class="des">
+                    <span>Oneplus</span>
+                    <h5>OnePlus 10 Pro</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹40,000</h4>
+                </div>
+                <a href="#"><i class="fa fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="Images/Phones/Samsung/main.jpg" alt="">
+                <div class="des">
+                    <span>Samsung</span>
+                    <h5>Samsung S23 Ultra</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        
+                    </div>
+                    <h4>₹95,000</h4>
+                </div>
+                <a href="#"><i class="fa fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+        </div>
+
+    </section>
+    
+
+    <section id="sm-banner" class="section-p1">
+        <div class="banner-box">
+            <button class="white">Explore More</button>
+        </div>
+    </section>
+
+    <section id="banner3">
+        <div class="banner-box">
+            <button class="white">Explore</button>
+        </div>
+        <div class="banner-box banner-box2">
+            <button class="white">Explore</button>
+        </div>
+    
+        <div class="banner-box banner-box3">
+            <button class="white">Explore</button>
+        </div>
+    </section>
+
+    <section>
+        <div class="footer">
+            <div class="upper">
+                <div class="left">
+                    <h1>Shopping Cart</h1>
+                    <div class="desc">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam odio repellat obcaecati facilis
+                    </div>
+                    <div class="icons">
+                    <a href="#"><i class="fa-brands fa-instagram fa-sm" ></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    
+                    </div>
+                </div>
+    
+                
+                <div class="right">
+                    <div class="links">
+    
+                        <a href="/index.html">Home</a>
+                        <a href="/contact.html">Contact</a>
+                        <a href="/shop.html">Shop</a>
+                    </div>
+                    <div class="extra-info">
+                        <span class="icon-foot">
+                            <i class="fas fa-phone-alt"></i>
+                         9847447646
+                </span>
+                        <span class="icon-foot">
+                            <i class="fas fa-envelope"></i>
+                            xyz@gmail.com
+                </span>
+                        <span class="icon-foot">
+                            <i class="fas fa-map-marker-alt"></i>
+                    Pune, Maharashtra.
+                </span>
+                    
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="footer1">
+        <p class="copyright">copyright@2023 Reserved By ......</p>
+    </div>
+    </section>
+<script src="slide.js"></script>
+<script src="script.js"></script>
+</div>
+</body>
+</html>

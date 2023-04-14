@@ -1,0 +1,233 @@
+{
+  "msg": "Fetched Data succesully",
+  "data": [
+    {
+      "id": 1,
+      "category": "Earphone",
+      "brand": "Boult Maverick",
+      "stars": 5,
+      "price": 25000,
+      "img": "/Images/earphones/earphones1/ear_main.jpg",
+      "carousal": [  
+        "/Images/earphones/earphones1/ear_main.jpg",  
+        "/Images/earphones/earphones1/ear1.jpg",  
+        "/Images/earphones/earphones1/ear2.jpg",  
+        "/Images/earphones/earphones1/ear3.jpg"        
+      ]
+    },
+    {
+      "id": 2,
+      "category": "Earphone",
+      "brand": "Jbl earphone",
+      "stars": 5, 
+      "price": 5499,
+      "img": "/Images/earphones/earphones5/ear_main.jpg",
+      "carousal": [
+        "/Images/earphones/earphones5/ear_main.jpg",
+        "/Images/earphones/earphones5/ear1.jpg",
+        "/Images/earphones/earphones5/ear2.jpg",
+        "/Images/earphones/earphones5/ear3.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "category": "Watch",
+      "brand": "Apple Watch Ultra",
+      "stars": 5,
+      "price": 89999,
+      "img": "/Images/Watches/watch1/watch_main.jpg",
+      "carousal": [
+        "/Images/Watches/watch1/watch_main.jpg",
+        "/Images/Watches/watch1/watch1.jpg",
+        "/Images/Watches/watch1/watch2.jpg",
+        "/Images/Watches/watch1/watch3.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "category": "Watch",
+      "brand": "Fire-Boltt Phoenix Smart Watch",
+      "stars": 4,
+      "price": 1699,
+      "img": "/Images/Watches/watch2/watch_main.jpg",
+      "carousal": [
+        "/Images/Watches/watch2/watch_main.jpg",
+        "/Images/Watches/watch2/watch1.jpg",
+        "/Images/Watches/watch2/watch2.jpg",
+        "/Images/Watches/watch2/watch3.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "category": "Laptop",
+      "brand": "Msi Laptop",
+      "stars": 5,
+      "price": 95999,
+      "img": "/Images/Laptop/Msi/main.jpg",
+      "carousal": [
+        "/Images/Laptop/Msi/main.jpg",
+        "/Images/Laptop/Msi/open.jpg",
+        "/Images/Laptop/Msi/side.jpg",
+        "/Images/Laptop/Msi/top.jpg"
+      ]
+    },
+    {
+      "id": 6,
+      "category": "Phone",
+      "brand": "Apple Iphone 14 Pro Max",
+      "stars": 5,
+      "price": 125000,
+      "img": "/Images/Phones/Iphone/main.jpg",
+      "carousal": [
+        "/Images/Phones/Iphone/main.jpg",
+        "/Images/Phones/Iphone/features.jpg",
+        "/Images/Phones/Iphone/back.jpg",
+        "/Images/Phones/Iphone/cam.jpg"
+      ]
+    },
+    {
+      "id": 7,
+      "category": "Laptop",
+      "brand": "Dell Laptop",
+      "stars": 5,
+      "price": 60000,
+      "img": "/Images/Laptop/Dell/main.jpg",
+      "carousal": [
+        "/Images/Laptop/Dell/main.jpg",
+        "/Images/Laptop/Dell/feature.jpg",
+        "/Images/Laptop/Dell/side.jpg",
+        "/Images/Laptop/Dell/side2.jpg"
+      ]
+    },
+    {
+      "id": 8,
+      "category": "Phone",
+      "brand": "OnePlus Phone",
+      "stars": 5,
+      "price": 40000,
+      "img": "/Images/Phones/Oneplus/main.jpg",
+      "carousal": [
+        "/Images/Phones/Oneplus/main.jpg",
+        "/Images/Phones/Oneplus/feature.jpg",
+        "/Images/Phones/Oneplus/side1.jpg",
+        "/Images/Phones/Oneplus/side2.jpg"
+      ]
+    },
+    {
+      "id": 9,
+      "category": "Watch",
+      "brand": "Redmi Smart Band Pro",
+      "stars": 5,
+      "price": 1500,
+      "img": "/Images/Watches/watch3/watch_main.jpg",
+      "carousal": [
+        "/Images/Watches/watch3/watch_main.jpg",
+        "/Images/Watches/watch3/watch1.jpg",
+        "/Images/Watches/watch3/watch2.jpg",
+        "/Images/Watches/watch3/watch3.jpg"
+      ]
+    },
+    {
+      "id": 10,
+      "category": "Laptop",
+      "brand": "Asus Laptop",
+      "stars": 5,
+      "price": 180000,
+      "img": "/Images/Laptop/Asus/main.jpg",
+      "carousal": [
+        "/Images/Laptop/Asus/main.jpg",
+        "/Images/Laptop/Asus/feature.jpg",
+        "/Images/Laptop/Asus/tp1.jpg",
+        "/Images/Laptop/Asus/tp2.jpg"
+      ]
+    },
+    {
+      "id": 11,
+      "category": "Earphone",
+      "brand": "Boat Headphone",
+      "stars": 5,
+      "price": 8000,
+      "img": "/Images/earphones/earphones6/ear_main.jpg",
+      "carousal": [
+        "/Images/earphones/earphones6/ear_main.jpg",
+        "/Images/earphones/earphones6/ear1.jpg",
+        "/Images/earphones/earphones6/ear2.jpg",
+        "/Images/earphones/earphones6/ear3.jpg"
+      ]
+    },
+
+    {
+      "id": 12,
+      "category": "Phone",
+      "brand": "Samsung Phone",
+      "stars": 5,
+      "price": 95000,
+      "img": "/Images/Phones/Samsung/main.jpg",
+      "carousal": [
+        "/Images/Phones/Samsung/main.jpg",
+        "/Images/Phones/Samsung/feature.jpg",
+        "/Images/Phones/Samsung/design.jpg",
+        "/Images/Phones/Samsung/tp.jpg"
+      ]
+    },
+
+    {
+      "id": 13,
+      "category": "Watch",
+      "brand": "Fastrack Reflex Vox Smartwatch",
+      "stars": 4,
+      "price": 2500,
+      "img": "/Images/Watches/watch4/watch_main.jpg",
+      "carousal": [
+        "/Images/Watches/watch4/watch_main.jpg",
+        "/Images/Watches/watch4/watch1.jpg",
+        "/Images/Watches/watch4/watch2.jpg",
+        "/Images/Watches/watch4/watch3.jpg"
+      ]
+    },
+    {
+      "id": 14,
+      "category": "Laptop",
+      "brand": "Hp Laptop",
+      "stars": 4,
+      "price": 55499,
+      "img": "/Images/Laptop/Hp/main.jpg",
+      "carousal": [
+        "/Images/Laptop/Hp/main.jpg",
+        "/Images/Laptop/Hp/feature.jpg",
+        "/Images/Laptop/Hp/side.jpg",
+        "/Images/Laptop/Hp/tp.jpg"
+      ]
+    },
+    {
+      "id": 15,
+      "category": "Earphone",
+      "brand": "Ptron neckband",
+      "stars": 3,
+      "price": 1400,
+      "img": "/Images/earphones/earphones7/ear_main.jpg",
+      "carousal": [
+        "/Images/earphones/earphones7/ear_main.jpg",
+        "/Images/earphones/earphones7/ear1.jpg",
+        "/Images/earphones/earphones7/ear2.jpg",
+        "/Images/earphones/earphones7/ear3.jpg"
+      ]
+    },
+
+
+    {
+      "id": 16,
+      "category": "Phone",
+      "brand": "Asus Phone",
+      "stars": 5,
+      "price": 50000,
+      "img": "/Images/Phones/Asus/main1.jpg",
+      "carousal": [
+        "/Images/Phones/Asus/main1.jpg",
+        "/Images/Phones/Asus/feature.jpg",
+        "/Images/Phones/Asus/side1.jpg",
+        "/Images/Phones/Asus/side2.jpg"
+      ]
+    }
+  ]
+}

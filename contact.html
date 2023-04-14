@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping cart</title>
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"  href="style.css">
+    <link rel="stylesheet"  href="footer.css">
+    
+</head>
+<body>
+    <div id="loader">
+        <img src="/Images/loading-buffering.gif"/>
+    </div>
+    <div id="content">
+    <section id="header">
+        <a href="index.html"><img src="Images/Logo/Logo.png" class="logo" alt="" ></a>
+    <div>
+        <ul id="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>  
+            <li><a class="active" href="contact.html">Contact</a></li>
+            <li id="lg-bag"><a href="cart.html"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a></li>
+            <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+        </ul>
+    </div>
+    <div id="mobile">
+        <a href="cart.html"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+        <i id="lines" class="fa-solid fa-bars"></i>
+    </div>
+    </section>
+
+
+    <section class="section-p1" id="contact-details">
+        <div class="details">
+            <span>GET IN TOUCH</span>
+            <h2>Visit one of our agency locations or contact us today</h2>
+            <h3>Head Office</h3>
+            <div>
+                <li>
+                    <i class="fa-solid fa-map-location-dot fa-fade"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                </li>
+
+                <li>
+                    <i class="fa-solid fa-envelope fa-fade"></i>
+                    <p>xyz@gmail.com</p>
+                </li>
+
+                <li>
+                    <i class="fa-solid fa-phone fa-fade"></i>
+                    <p>+91 9876543210</p>
+                </li>
+
+                <li>
+                    <i class="fa-solid fa-clock fa-fade"></i>     
+                    <p>Monday to Saturday 9am to 6pm.</p>
+                </li>
+            </div>
+        </div>
+
+        <div class="details">
+            <h2>About Us</h2>
+            <p style="text-align: justify;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit a non in nemo maiores nisi accusamus cum voluptatum eius commodi totam doloribus perspiciatis libero nihil adipisci, et laboriosam aliquam rem fugiat eum voluptate dolorem hic minima omnis. Vel voluptas neque veniam molestiae tempore eligendi maiores nemo sequi recusandae aut eaque delectus ea doloremque consectetur ipsa, unde minima veritatis qui corporis maxime aspernatur ab enim? Natus magni repudiandae labore alias deserunt nesciunt vel voluptatum corrupti quae minima reiciendis harum sequi vitae, quod facilis doloremque quisquam enim. Nulla sit voluptatibus libero, voluptatem est repellendus iste. At sunt eveniet magnam maxime incidunt libero. tatibus facere beatae aliquid? Porro quae eveniet perferendis blanditiis accusantium velit temporibus.</p>
+        </div>
+    </section>
+
+    <section id="form-details">
+        <form action="">
+            <span>LEAVE A MESSAGE</span>
+            <h2>we love to hear you</h2>
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="text" id="email" placeholder="E-mail" required>
+            <input type="text" id="subject" placeholder="Subject" required>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <button class="btn-hover color-1" onclick="msgsubmit()">Submit</button>
+        </form>
+
+        <div class="people">
+            <div>
+                <img src="Images/Contact/user1.jpg" alt="User 1">
+                <p><span> Person 1 </span> Senior marketing manager <br> Phone: +91 1122334455 <br> E-mail: xyz@gmail.com</p>
+            </div> 
+            <div>
+                <img src="Images/Contact/user2new.jpg" alt="User 2">                
+                <p><span> Person 2</span> Business Manager <br> Phone: +91 1122334455 <br> E-mail: xyz@gmail.com</p>
+            </div> 
+            <div>
+                <img src="Images/Contact/user4.jpg" alt="User 3">
+                <p><span> Person 3 </span> Chartered Accountant <br> Phone: +91 1122334455 <br> E-mail: xyz@gmail.com</p>
+            </div> 
+        </div>
+    </section>
+
+    <section>
+        <div class="footer">
+            <div class="upper">
+                <div class="left">
+                    <h1>Shopping Cart</h1>
+                    <div class="desc">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam odio repellat obcaecati facilis
+                    </div>
+                    <div class="icons">
+                    <a href="#"><i class="fa-brands fa-instagram fa-sm" ></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    
+                    </div>
+                </div>
+    
+                
+                <div class="right">
+                    <div class="links">
+    
+                        <a href="/index.html">Home</a>
+                        <a href="/contact.html">Contact</a>
+                        <a href="/shop.html">Shop</a>
+                    </div>
+                    <div class="extra-info">
+                        <span class="icon-foot">
+                            <i class="fas fa-phone-alt"></i>
+                         9847447646
+                </span>
+                        <span class="icon-foot">
+                            <i class="fas fa-envelope"></i>
+                            xyz@gmail.com
+                </span>
+                        <span class="icon-foot">
+                            <i class="fas fa-map-marker-alt"></i>
+                    Pune, Maharashtra.
+                </span>
+                    
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="footer1">
+        <p class="copyright">copyright@2023 Reserved By ......</p>
+    </div>
+    </section>
+<script src="script.js"></script>
+    </div>
+</body>
+</html>

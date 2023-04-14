@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping cart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"  href="style.css">
+    <link rel="stylesheet"  href="footer.css">
+    
+   
+</head>
+
+<body>
+ <div id="loader">
+        <img src="/Images/loading-buffering.gif"/>
+    </div>
+    <div id="content">
+    <section id="header">
+        <a href="index.html"><img src="Images/Logo/Logo.png" class="logo" alt="" ></a>
+    <div>
+        <ul id="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+
+            <li><a  href="contact.html">Contact</a></li>
+            <li id="lg-bag"><a class="active" href="cart.html"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a></li>
+            <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+        </ul>
+    </div>
+    <div id="mobile">
+        <a href="cart.html"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+        <i id="lines" class="fa-solid fa-bars"></i>
+    </div>
+    </section>
+
+    <section class="container content-section">
+        <h2 class="section-header">CART</h2>
+        <div id="cartItems">
+
+            <div class="cart-row">
+                <span class="cart-quantity cart-header cart-column"></span>
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class= "cart-quantity cart-header cart-column">QUANTITY</span>
+                <span class="cart-quantity cart-header cart-column"></span>
+            </div>
+            
+            
+        </div>
+        <div class="cart-total">
+            
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">0 </span>
+        </div>
+        <button onclick="mybuttonFunction()" class="btn-purchase" type="button">PURCHASE</button>
+    </section>
+    <div id="cart-items"></div>
+
+        
+
+</section>
+<section>
+    <div class="footer">
+        <div class="upper">
+            <div class="left">
+                <h1>Shopping Cart</h1>
+                <div class="desc">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam odio repellat obcaecati facilis
+                </div>
+                <div class="icons">
+                <a href="#"><i class="fa-brands fa-instagram fa-sm" ></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                
+                </div>
+            </div>
+
+            
+            <div class="right">
+                <div class="links">
+
+                    <a href="/index.html">Home</a>
+                    <a href="/contact.html">Contact</a>
+                    <a href="/shop.html">Shop</a>
+                </div>
+                <div class="extra-info">
+                    <span class="icon-foot">
+                        <i class="fas fa-phone-alt"></i>
+                     9847447646
+            </span>
+                    <span class="icon-foot">
+                        <i class="fas fa-envelope"></i>
+                        xyz@gmail.com
+            </span>
+                    <span class="icon-foot">
+                        <i class="fas fa-map-marker-alt"></i>
+                Pune, Maharashtra.
+            </span>
+                
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="footer1">
+    <p class="copyright">copyright@2023 Reserved By ......</p>
+</div>
+</section>
+<script src="script.js"></script>
+<script src="shopScript.js"></script>
+<script>
+  
+</script>
+<script src="cart_pro.js"> </script>
+    </div>                                         
+</body>
+</html>
